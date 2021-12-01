@@ -183,6 +183,42 @@ html::-webkit-scrollbar-thumb {
     line-height: 1.8;
 }
 
+.image .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.image .row .image {
+    flex: 1 1 42rem;
+}
+
+.image .row .image img {
+    width: 100%;
+}
+
+.image .row .content {
+    flex: 1 1 42rem;
+}
+
+.image .row .content h3 {
+    color: var(--black);
+    font-size: 3.5rem;
+    line-height: 1.8;
+}
+
+.image .row .content img {
+    width: 100%;
+}
+
+.image .row .content p {
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
 .about .row {
     display: flex;
     align-items: center;
